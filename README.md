@@ -14,11 +14,10 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 | 1 | What's a transistor anyway?       | [Essay](#)       | [YT](#) | 5 hrs      |
 
 #### Bonus Reading
-
-| # | Title                                             | Notes Link | YouTube | Time Taken |
-|---|---------------------------------------------------|------------|---------|------------|
-| 1 | Can a neuroscientist understand a microprocessor? | [Notes](#) | [YT](#) | 3 hrs      |
-| 2 | Can a biologist understand a radio?               | [Notes](#) | [YT](#) | 3 hrs      |
+| # | Title                                             | Paper Link | Notes Link | YouTube | Time Taken |
+|---|---------------------------------------------------|------------|------------|---------|------------|
+| 1 | Could a neuroscientist understand a microprocessor? | [Paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268) | [Notes](#) | [YT](#) | 3 hrs      |
+| 2 | Can a biologist fix a radio?                      | [Paper](https://www.cell.com/cancer-cell/pdf/S1535-6108(02)00133-2.pdf) | [Notes](#) | [YT](#) | 3 hrs      |
 
 ---
 
