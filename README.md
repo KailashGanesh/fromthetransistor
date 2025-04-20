@@ -12,21 +12,20 @@ Hiring is hard, a lot of modern CS education is really bad, and it's hard to fin
 - C Basic Syntax
 - DSA
 
-Everything else you learn as you go. or at least that's the plan.
-
+Everything else you learn as you go, or at least that's the plan.
 
 ## Section 1: Cheating Our Way Past the Transistor  
 We aren't going to build a transistor from scratch. Instead, we'll study them, understand what they are, and move forward with tools that build on them.
 
 | # | Unit Name                          | Essay/Notes Link | YouTube | Time Taken |
 |---|-----------------------------------|------------------|---------|------------|
-| 1 | What's a transistor anyway?       | [Essay](#)       | [YT](#) | 5 hrs      |
+| 1 | What's a transistor anyway?       | [Essay](#)       |         |            |
 
 #### Bonus Reading
 | # | Title                                             | Paper Link | Notes Link | YouTube | Time Taken |
 |---|---------------------------------------------------|------------|------------|---------|------------|
-| 1 | Could a neuroscientist understand a microprocessor? | [Paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268) | [Notes](#) | [YT](#) | 3 hrs      |
-| 2 | Can a biologist fix a radio?                      | [Paper](https://www.cell.com/cancer-cell/pdf/S1535-6108(02)00133-2.pdf) | [Notes](#) | [YT](#) | 3 hrs      |
+| 1 | Could a neuroscientist understand a microprocessor? | [Paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268) | |  |     |
+| 2 | Can a biologist fix a radio?                      | [Paper](https://www.cell.com/cancer-cell/pdf/S1535-6108(02)00133-2.pdf) | |  |       |
 
 ---
 
@@ -34,9 +33,9 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 
 | # | Unit Name                     | Notes/Resources | YouTube | Time Taken |
 |---|-------------------------------|------------------|---------|------------|
-| 1 | Learn Verilog                 | [Notes](#)       | [YT](#) |            |
-| 2 | Blink an LED                  | [Notes](#)       | [YT](#) |            |
-| 3 | Build a UART (MMIO intro)     | [Notes](#)       | [YT](#) |            |
+| 1 | Learn Verilog                 |                  |         |            |
+| 2 | Blink an LED                  |                  |         |            |
+| 3 | Build a UART (MMIO intro)     |                  |         |            |
 
 **Details:**
 - Blinking an LED (Verilog, ~10 lines) -- Your first little program! Getting the simulator working. Learning Verilog.
@@ -48,13 +47,13 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 
 | # | Unit Name                        | Notes/Resources | YouTube | Time Taken |
 |---|----------------------------------|------------------|---------|------------|
-| 1 | Code an Assembler (Python)       | [Notes](#)       | [YT](#) |            |
-| 2 | Build an ARM7 CPU (Verilog)      | [Notes](#)       | [YT](#) |            |
-| 3 | Code a Boot ROM (ASM)            | [Notes](#)       | [YT](#) |            |
+| 1 | Code an Assembler (Python)       |                  |         |            |
+| 2 | Build an ARM7 CPU (Verilog)      |                  |         |            |
+| 3 | Code a Boot ROM (ASM)            |                  |         |            |
 
 **Details:**
 - Coding an assembler (Python, ~500 lines) -- Straightforward and boring, write in python. Happens in parallel with the CPU building. Teaches you ARM assembly.
-- Building a ARM7 CPU (Verilog, ~1500 lines) -- A simple pipeline to start, decode, fetch, execute.
+- Building an ARM7 CPU (Verilog, ~1500 lines) -- A simple pipeline to start, decode, fetch, execute.
 - Coding a bootrom (Assembler, ~40 lines) -- This allows code download into RAM over the serial port, and is baked into the FPGA image.
 
 ---
@@ -63,11 +62,11 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 
 | # | Unit Name                            | Notes/Resources | YouTube | Time Taken |
 |---|--------------------------------------|------------------|---------|------------|
-| 1 | Build a C Compiler (Haskell)         | [Notes](#)       | [YT](#) |            |
-| 2 | Build a Linker (Python)              | [Notes](#)       | [YT](#) |            |
-| 3 | Write `libc` and `malloc` (C)        | [Notes](#)       | [YT](#) |            |
-| 4 | Build Ethernet Controller (Verilog)  | [Notes](#)       | [YT](#) |            |
-| 5 | Write a Bootloader (C)               | [Notes](#)       | [YT](#) |            |
+| 1 | Build a C Compiler (Haskell)         |                  |         |            |
+| 2 | Build a Linker (Python)              |                  |         |            |
+| 3 | Write `libc` and `malloc` (C)        |                  |         |            |
+| 4 | Build Ethernet Controller (Verilog)  |                  |         |            |
+| 5 | Write a Bootloader (C)               |                  |         |            |
 
 **Details:**
 - Building a C compiler (Haskell, ~2000 lines) -- Cover the basics of compiler design. Write in Haskell.
@@ -82,11 +81,11 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 
 | # | Unit Name                     | Notes/Resources | YouTube | Time Taken |
 |---|-------------------------------|------------------|---------|------------|
-| 1 | Build an MMU (Verilog)        | [Notes](#)       | [YT](#) |            |
-| 2 | Build a Unix-like OS (C)      | [Notes](#)       | [YT](#) |            |
-| 3 | SD Card Interface (Verilog)   | [Notes](#)       | [YT](#) |            |
-| 4 | FAT Filesystem (C)            | [Notes](#)       | [YT](#) |            |
-| 5 | init, shell, cat, ls, rm (C)  | [Notes](#)       | [YT](#) |            |
+| 1 | Build an MMU (Verilog)        |                  |         |            |
+| 2 | Build a Unix-like OS (C)      |                  |         |            |
+| 3 | SD Card Interface (Verilog)   |                  |         |            |
+| 4 | FAT Filesystem (C)            |                  |         |            |
+| 5 | init, shell, cat, ls, rm (C)  |                  |         |            |
 
 **Details:**
 - Building an MMU (Verilog, ~1000 lines) -- ARM9ish, explain TLBs and other fun things.
@@ -101,10 +100,10 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 
 | # | Unit Name                         | Notes/Resources | YouTube | Time Taken |
 |---|-----------------------------------|------------------|---------|------------|
-| 1 | TCP Stack (C)                     | [Notes](#)       | [YT](#) |            |
-| 2 | telnetd (C)                       | [Notes](#)       | [YT](#) |            |
-| 3 | Dynamic Linking (C)              | [Notes](#)       | [YT](#) |            |
-| 4 | Text Web Browser (C + Terminal)  | [Notes](#)       | [YT](#) |            |
+| 1 | TCP Stack (C)                     |                  |         |            |
+| 2 | telnetd (C)                       |                  |         |            |
+| 3 | Dynamic Linking (C)               |                  |         |            |
+| 4 | Text Web Browser (C + Terminal)   |                  |         |            |
 
 **Details:**
 - Building a TCP stack (C, ~500 lines) -- Kernel networking implementation.
@@ -117,10 +116,10 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 ## Section 7: Physical – Running on Real Hardware  
 
 | # | Unit Name                              | Notes/Resources | YouTube | Time Taken |
-|---|----------------------------------------|------------------|---------|------------|
-| 1 | Talk to FPGA via JTAG (C)              | [Notes](#)       | [YT](#) |            |
-| 2 | Build an FPGA Board                    | [Notes](#)       | [YT](#) |            |
-| 3 | Bringup and Flash                      | [Notes](#)       | [YT](#) |            |
+|---|----------------------------------------|-----------------|---------|------------|
+| 1 | Talk to FPGA via JTAG (C)              |                  |         |            |
+| 2 | Build an FPGA Board                    |                  |         |            |
+| 3 | Bringup and Flash                      |                  |         |            |
 
 **Details:**
 - FPGA communication (C, ~200 lines) -- USB MCU to bitbang JTAG.
