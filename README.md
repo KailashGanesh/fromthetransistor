@@ -4,10 +4,19 @@ Hiring is hard, a lot of modern CS education is really bad, and it's hard to fin
 
 ---
 
+## Section 0: Prerequisites
+
+- Terminal
+- Git
+- Python
+- C Basic Syntax
+- DSA
+
+Everything else you learn as you go. or at least that's the plan.
+
+
 ## Section 1: Cheating Our Way Past the Transistor  
 We aren't going to build a transistor from scratch. Instead, we'll study them, understand what they are, and move forward with tools that build on them.
-
-### Units
 
 | # | Unit Name                          | Essay/Notes Link | YouTube | Time Taken |
 |---|-----------------------------------|------------------|---------|------------|
@@ -23,8 +32,6 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 
 ## Section 2: Bringup – What Language is Hardware Coded In?  
 
-### Units
-
 | # | Unit Name                     | Notes/Resources | YouTube | Time Taken |
 |---|-------------------------------|------------------|---------|------------|
 | 1 | Learn Verilog                 | [Notes](#)       | [YT](#) |            |
@@ -38,8 +45,6 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 ---
 
 ## Section 3: Processor – What is a Processor Anyway?  
-
-### Units
 
 | # | Unit Name                        | Notes/Resources | YouTube | Time Taken |
 |---|----------------------------------|------------------|---------|------------|
@@ -55,8 +60,6 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 ---
 
 ## Section 4: Compiler – A "High" Level Language  
-
-### Units
 
 | # | Unit Name                            | Notes/Resources | YouTube | Time Taken |
 |---|--------------------------------------|------------------|---------|------------|
@@ -77,8 +80,6 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 
 ## Section 5: Operating System – Software We Take for Granted  
 
-### Units
-
 | # | Unit Name                     | Notes/Resources | YouTube | Time Taken |
 |---|-------------------------------|------------------|---------|------------|
 | 1 | Build an MMU (Verilog)        | [Notes](#)       | [YT](#) |            |
@@ -98,8 +99,6 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 
 ## Section 6: Browser – Coming Online  
 
-### Units
-
 | # | Unit Name                         | Notes/Resources | YouTube | Time Taken |
 |---|-----------------------------------|------------------|---------|------------|
 | 1 | TCP Stack (C)                     | [Notes](#)       | [YT](#) |            |
@@ -116,8 +115,6 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 ---
 
 ## Section 7: Physical – Running on Real Hardware  
-
-### Units
 
 | # | Unit Name                              | Notes/Resources | YouTube | Time Taken |
 |---|----------------------------------------|------------------|---------|------------|
