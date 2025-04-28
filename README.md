@@ -48,12 +48,12 @@ We aren't going to build a transistor from scratch. Instead, we'll study them, u
 | # | Unit Name                        | Notes/Resources | YouTube | Time Taken |
 |---|----------------------------------|------------------|---------|------------|
 | 1 | Code an Assembler (Python)       |                  |         |            |
-| 2 | Build an ARM7 CPU (Verilog)      |                  |         |            |
+| 2 | Build a RISC-V CPU (Verilog)     |                  |         |            |
 | 3 | Code a Boot ROM (ASM)            |                  |         |            |
 
 **Details:**
-- Coding an assembler (Python, ~500 lines) -- Straightforward and boring, write in python. Happens in parallel with the CPU building. Teaches you ARM assembly.
-- Building an ARM7 CPU (Verilog, ~1500 lines) -- A simple pipeline to start, decode, fetch, execute.
+- Coding an assembler (Python, ~500 lines) -- Straightforward and boring, write in python. Happens in parallel with the CPU building. Teaches you RISC-V assembly. 
+- Building a RISC-V CPU (Verilog, ~1500 lines) -- RV32IMF implementation with a simple pipeline (fetch, decode, execute), floating-point support (a little bit of mixed precision never hurt anyone), and all the basics you need.
 - Coding a bootrom (Assembler, ~40 lines) -- This allows code download into RAM over the serial port, and is baked into the FPGA image.
 
 ---
